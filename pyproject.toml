@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "matrix-script"
+version = "0.1.0"
+description = "L'idée est d'afficher un écran style matrix"
+authors = ["Maxime POPOT--CHAPUIS <maxime.popot@gmail.com>"]
+readme = "README.md"
+packages = [{include = "matrix_script"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+colorama = "^0.4.6"
+pymupdf = "^1.23.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
