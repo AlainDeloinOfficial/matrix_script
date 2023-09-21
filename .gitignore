@@ -1,0 +1,4 @@
+# PyInstaller stuff
+/build
+/dist
+matrix.spec
